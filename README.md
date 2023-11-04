@@ -1,2 +1,2 @@
 # Oasis-Task-1
-Oasis infobyte internship task 1 (Web development and design)
+Oasis infobyte WEB DEVELOPMENT AND DESIGN internship task 1 (WEBSITE LANDING PAGE)
