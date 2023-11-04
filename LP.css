@@ -1,0 +1,234 @@
+body{
+    margin:0;
+    padding: 0%;
+    background:linear-gradient(to right,white,rgb(47, 181, 47));
+    background-size: cover;
+}
+h1{
+    
+    font-family:serif;
+    padding: 0%;
+    margin:0%; 
+    text-align: left;
+    overflow: hidden;
+    background:linear-gradient(to right,white,rgb(47, 181, 47));
+    color: blueviolet;
+}
+body img{
+    margin-left: 10px;
+    float: left;
+    position: relative;
+    width: 50px;
+    height: 35px;
+}
+nav{
+    margin: 0%;
+    padding: 0%;
+}
+button{
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    padding: 6px 5px;
+    border-radius: 10px;
+    background-color:white;
+    color: black;
+    overflow: hidden;   
+}
+button:hover{
+    background-color:rgb(207, 255, 14);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.nav{
+     padding: 0;
+     margin: 0;
+     font-family: 'Poppins',monospace;
+}
+ul{ margin: 0%;
+    padding: 0%;
+    list-style: none;
+    background:black;
+}
+ul li{ 
+    display: inline-block;
+    position: relative;
+}
+ul li a{
+    font-family: sans-serif;
+    display: block;
+    padding: 10px 20px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+}
+ul li a:hover{
+    background-color: rgb(255, 140, 159);
+    color:white;
+    height: 15px;
+    
+}
+ul li ul.dropdown li{
+    display: block;
+}
+ul li ul.dropdown{
+    width: 100%;
+    background:black;
+    display: block;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li:hover ul.dropdown{
+    text-align: center;
+    display: block;
+}
+nav ul li input{
+    border: 1px red;
+    border-radius: 7px;
+    width: 300px;
+    height: 30px;
+    margin-left: 150px;
+    background-color: white;
+    color: black;
+    padding-bottom: -20px;
+}
+nav ul li button{
+    margin-left: 50px;
+    
+
+}
+
+marquee h3{
+    color: black;
+}
+@keyframes blink{
+    50%{
+        opacity: 0.1
+    }
+    99%{
+        opacity: 2.0
+    }
+}
+h3{
+    text-align: center;
+    font-family: sans-serif;
+    color: red;
+    animation: blink 1s linear infinite;
+}
+h2{
+    margin: 10px;
+    padding: 0%;
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 260px;
+    background:linear-gradient(to right,white,rgb(47, 181, 47));
+}
+.container div{
+    margin-left: 50px;
+    height: 260px;
+    width: 500px;
+    border: 1px red;
+}
+.container div img{
+    width: 380px;
+    height: 260px;
+    
+}
+
+.banner-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-container .banner{
+    background:linear-gradient(-55deg, #ff7675 29%, #d63031 29.1%, #d63031 68%, #ff7675 68.1%);
+    border-radius: 5px;
+    margin:10px;
+    display: flex;
+    height: 160px;
+    width: 900px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    box-shadow: 0 5px 10px #0005;
+    overflow: hidden;
+}
+
+.banner-container .banner .shoe{
+    flex:1 1 250px;
+    padding:15px;
+    text-align: center;
+}
+
+.banner-container .banner .shoe img{
+    width:100px;
+    height: 150px;
+}
+.banner-container .banner .jer{
+    flex:1 1 250px;
+    padding:15px;
+    text-align: center;
+}
+
+.banner-container .banner .jer img{
+    width:100px;
+    height: 150px;
+}
+.banner-container .banner .women{
+    flex:1 1 250px;
+    padding-left: 40px;
+    text-align: center;
+}
+
+.banner-container .banner .women img{
+    width:150px;
+    height: 200px;
+}
+
+
+.banner-container .banner .content{
+    flex:1 1 250px;
+    text-align: center;
+    padding:10px;
+    text-transform: uppercase;
+}
+
+.banner-container .banner .content span{
+    color:#eee;
+    font-size: 15px;
+}
+
+.banner-container .banner .content h3{
+    padding: 0%;
+    margin: 0%;
+    color:#fff;
+    font-size: 30px;
+}
+.banner-container .banner .content p{
+    padding: 0%;
+    margin: 0%;
+    color:#eee;
+    font-size: 15px;
+    padding: 0;
+}
+
+.banner-container .banner .content .btn{
+    margin: 10px;
+    display: block;
+    height:40px;
+    width:150px;
+    line-height: 40px;
+    background: #fff;
+    color:#d63031;
+    margin-left: 550px;;
+    text-decoration: none;
+}
+
